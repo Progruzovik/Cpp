@@ -1,5 +1,4 @@
 #include <iostream>
-#include <locale>
 #include <cstring>
 #include <stack>
 

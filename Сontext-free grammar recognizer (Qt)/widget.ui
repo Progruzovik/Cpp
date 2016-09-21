@@ -29,7 +29,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Recognizer of context-free grammars</string>
+   <string>Context-free grammar recognizer</string>
   </property>
   <widget class="QTextBrowser" name="txtResult">
    <property name="geometry">

@@ -1,7 +1,8 @@
+#ifndef BALANCEDTREE_H
+#define BALANCEDTREE_H
+
 #include <iostream>
 #include <vector>
-
-#pragma once
 
 class BalancedTree
 {
@@ -19,3 +20,5 @@ public:
     int minimum();
     friend std::ostream& operator<<(std::ostream& os, BalancedTree* a);
 };
+
+#endif //BALANCEDTREE_H

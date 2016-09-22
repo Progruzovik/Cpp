@@ -2,6 +2,7 @@
 #define WIDGET_H
 
 #include <QWidget>
+#include "grammar.h"
 
 namespace Ui {
 class Widget;
@@ -16,20 +17,13 @@ public:
     ~Widget();
 
 private slots:
-    void on_txtN_textChanged();
     void on_txtN_editingFinished();
-    void on_txtT_textChanged();
-    void on_txtP_textChanged();
     void on_btnOpen_clicked();
     void on_btnSave_clicked();
     void on_btnTest_clicked();
 
 private:
-    bool isConditionChanged;
-    QStringList listN;
-    QStringList listT;
-    QStringList listP;
-    QVector<QStringList> rules;
+    Grammar grammar;
     Ui::Widget *ui;
 };
 

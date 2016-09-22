@@ -10,12 +10,12 @@ public:
     BalancedTree(BalancedTree* root);
     ~BalancedTree(void);
 
-	int num;
+    int num;
 	
     BalancedTree* left;
     BalancedTree* right;
 	
     void out(int depth = 0);
-	int minimum();
+    int minimum();
     friend std::ostream& operator<<(std::ostream& os, BalancedTree* a);
 };

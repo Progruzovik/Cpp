@@ -25,4 +25,4 @@ private:
     QVector<QStringList> rules;
 };
 
-#endif // GRAMMAR_H
+#endif //GRAMMAR_H

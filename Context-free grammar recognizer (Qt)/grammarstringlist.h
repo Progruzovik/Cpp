@@ -10,4 +10,4 @@ public:
     bool operator!=(const QStringList &other);
 };
 
-#endif // GRAMMARSTRINGLIST_H
+#endif //GRAMMARSTRINGLIST_H
